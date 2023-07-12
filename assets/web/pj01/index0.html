@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yip-da</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- aos cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- remixicon cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.3.0/remixicon.css" integrity="sha512-0JEaZ1BDR+FsrPtq5Ap9o05MUwn8lKs2GiCcRVdOH0qDcUcCoMKi8fDVJ9gnG8VN1Mp/vuWw2sMO0SQom5th4g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/style0.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="0/Yip-da.png" alt="logo">
+        </a>
+
+        <nav class="navbar">
+            <a href="#promotion">promotion</a>
+            <a href="#new">new</a>
+            <a href="#best">best</a>
+            <a href="#magazine">magazine</a>
+            <span class="cg">category</span>
+        </nav>
+
+        <nav class="category" id="category">
+            <a href="#">아우터</a>
+            <a href="#">상의</a>
+            <a href="#">치마</a>
+            <a href="#">바지</a>
+            <a href="#">액세서리</a>
+            <a href="#">잡화</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="text" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+    <!-- header end -->
+    
+    <!-- home start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3 data-aos="fade-up">Yip-da:</h3>
+            <p data-aos="zoom-in" data-aos-duration="3000">당신을 위한, 당신에 의한,
+                <br>당신의 옷장
+            </p>
+            <a href="#" class="btn">이벤트 바로가기</a>
+        </div>
+    </section>
+    <!-- home end -->
+
+    <!-- promotion start -->
+    <section class="promotion" id="promotion">
+        <h1 class="heading">promotion</h1>
+        <div class="row">
+            <swiper-container style="--swiper-navigation-color: #F2D5A9; --swiper-pagination-color: #F2D5A9" class="mySwiper"
+            speed="600" parallax="true" pagination="true" pagination-clickable="true" navigation="true">
+            <div slot="container-start" class="parallax-bg"
+              style="background-image: url(https://swiperjs.com/demos/images/nature-1.jpg);" data-swiper-parallax="-23%"></div>
+        
+            <swiper-slide>
+                <div class="image">
+                    <img src="0/promotion1.jpg" alt="slide1">
+                    <div class="content">
+                        <h3>신상품 업데이트 완료</h3>
+                        <p>
+                            이번주 신상품이 업데이트 되었습니다.
+                            <br>여행지에서도, 일상에서도
+                            <br>함께하기 좋은 제품들로 가득합니다.
+                            <br>yip-da와 함께 빛나는 여름을 맞이하세요.
+                            <br>(신상품은 매주 수요일 업데이트 됩니다.)
+                        </p>
+                        <h4>🌹</h4>
+                        <a href="#" class="btn">더보기</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="image">
+                    <img src="0/promotion2.jpg" alt="slide2">
+                    <div class="content">
+                        <h3>이번주 추천을 check</h3>
+                        <p>
+                            신상품 업데이트와 함께
+                            <br>매주 달라지는 추천을 확인해보세요.
+                            <br>Yip-da에서 엄선된
+                            <br>사랑스럽고 달콤한 의상들은
+                            <br>당신을 더욱 로맨틱하게 만들어줍니다.
+                        </p>
+                        <h4>🌹</h4>
+                        <a href="#" class="btn">더보기</a>
+                    </div>
+                </div>
+            </swiper-slide>
+            <swiper-slide>
+                <div class="image">
+                    <img src="0/promotion3.jpg" alt="slide3">
+                    <div class="content">
+                        <h3>얼리버드 오픈</h3>
+                        <p>
+                            다음 시즌 상품을 얼리버드로 만나보세요.
+                            <br>남들과는 다르게
+                            <br>누구보다 빠르게
+                            <br>할인된 가격으로 마음 편하게
+                            <br>미리 준비할 수 있습니다.
+                        </p>
+                        <h4>🌹</h4>
+                        <a href="#" class="btn">더보기</a>
+                    </div>
+                </div>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+    </section>
+    <!-- promotion end -->
+
+    <!-- new start -->
+    <section class="new" id="new">
+        <h1 class="heading">new</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <img src="0/new1.jpg" alt="new1" data-aos="flip-up">
+                <h3><span>✨ㅁ</span> 커플 포켓 울 코트 <span>✨</span></h3>
+                <p>얼리버드 할인으로 저렴하게 만나보실 수 있습니다.</p>
+                <div class="price"><span>￦299,000</span> <span class="default">￦499,000</span></div>
+                <a href="#" class="btn">자세히 보기</a>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <img src="0/new2.jpg" alt="new2" data-aos="flip-up">
+                <h3>배색 스트라이프 티셔츠</h3>
+                <p>스트라이프가 포인트로 부담없이 착용하기 쉽습니다.</p>
+                <div class="price"><span>￦59,000</span></div>
+                <a href="#" class="btn">자세히 보기</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <img src="0/new3.jpg" alt="new3" data-aos="flip-up">
+                <h3>베이직 데님 자켓</h3>
+                <p>다양하게 코디 가능한 베이직한 디자인입니다.</p>
+                <div class="price"><span>￦99,000</span></div>
+                <a href="#" class="btn">자세히 보기</a>
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+    <!-- new end -->
+    
+    <!-- best start -->
+    <section class="best" id="best">
+        <h1 class="heading">best</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <img src="0/best1.jpg" alt="best1" data-aos="flip-up">
+                <h3>베이직 티셔츠</h3>
+                <p>심플한 매력이 돋보이는 티셔츠입니다.</p>
+                <div class="price"><span>￦49,000</span></div>
+                <a href="#" class="btn">자세히 보기</a>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <img src="0/best2.jpg" alt="best2" data-aos="flip-up">
+                <h3>패턴 카라 셔츠</h3>
+                <p>화사한 패턴이 매력적인 카라 셔츠입니다.</p>
+                <div class="price"><span>￦169,000</span></div>
+                <a href="#" class="btn">자세히 보기</a>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <img src="0/best3.jpg" alt="best3" data-aos="flip-up">
+                <h3>플라워 오프숄더 원피스</h3>
+                <p>화사하면서도 우아한 플라워 프린팅이 포인트가 되는 원피스입니다.</p>
+                <div class="price"><span>￦359,000</span></div>
+                <a href="#" class="btn">자세히 보기</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- best end -->
+    
+    <!-- magazine start -->
+    <section class="magazine" id="magazine">
+        <h1 class="heading">magazine</h1>
+
+        <div class="container">
+            <div class="box box1">
+                <div class="in">
+                    <h4>이번 시즌은</h4>
+                    <p>다양한 패턴 무늬를 준비</p>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="in">
+                    <h4>후기 이벤트</h4>
+                    <p>후기 작성자 중 추첨하여 선물을</p>
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="in">
+                    <h4>청바지 라인 리뉴얼</h4>
+                    <p>더욱더 아름다운 다리 핏</p>
+                </div>
+            </div>
+            <div class="box box4">
+                <div class="in">
+                    <h4>빠른 배송</h4>
+                    <p>오후 3시까지 주문시 당일 출발</p>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+
+
+    <!-- magazine end -->
+
+    <!-- footer start -->
+    <section class="footer">
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-k"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-youtube"></a>
+            <a href="#" class="fab fa-b"></a>
+        </div>
+        <div class="links">
+            <a href="#">개인정보처리방침</a>
+            <a href="#">회사소개</a>
+            <a href="#">찾아오시는길</a>
+            <a href="#">이용약관</a>
+            <a href="#">고객센터</a>
+        </div>
+        <div class="fin">
+            <p></p>
+        </div>
+        <div class="credit">Creadted By 2023. <span>Yip-da</span> | All Rights Reserved</div>
+    </section>
+
+    <!-- footer end -->
+
+
+
+    <!-- script -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/script0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+</body>
+</html>
