@@ -2095,3 +2095,21 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+@media (max-width: 400px) {
+  .services .icon img {
+    width: 100%;
+  }
+  .row>* {
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+
+  }
+
+  section {
+    padding: 0;
+
+  }
+
+}
