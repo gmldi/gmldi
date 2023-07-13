@@ -2096,9 +2096,9 @@ section {
   text-decoration: none;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .services .icon img {
-    width: 100%;
+    width: 50%;
   }
   .row>* {
     width: 100%;
@@ -2108,7 +2108,7 @@ section {
   }
 
   section {
-    padding: 0;
+    padding: 60px 30px;
 
   }
 
